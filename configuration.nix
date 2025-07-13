@@ -32,7 +32,7 @@
   users.users.admin = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
-    openssh.authorizedKeys.keyFiles = [ "/etc/nixos/secrets/allowedKeys" ];
+    openssh.authorizedKeys.keyFiles = [ "/home/admin/secrets/allowedKeys" ];
   };
 
   # List packages installed in system profile.
